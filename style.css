@@ -199,7 +199,7 @@ svg {
     }
 }
 @media (min-width:1000px){
-   .child_container_two, .child_container_three {
+   .child_container_two, .child_container_three, .child_container_five {
         width:250px;
     }
     .child_container_one, .child_container_four{
