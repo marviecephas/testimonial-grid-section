@@ -153,7 +153,7 @@ svg {
 .container_five_paragraph {
     color:hsla(217, 19%, 35%, .5);
 }
-@media (min-width:980px){
+@media (min-width:800px){
     .parent_container{
         flex-direction:row;
         height:100vh;
@@ -163,9 +163,14 @@ svg {
     }
     .child_container_one, .child_container_two, .child_container_three, .child_container_four{
         height:250px;
-        width:auto;
         padding:20px;
         margin:0 20px 20px 0;
+    }
+    .child_container_two, .child_container_three {
+        width:200px;
+    }
+    .child_container_one, .child_container_four{
+        width:400px;
     }
     .child_container_five {
         width:200px;
