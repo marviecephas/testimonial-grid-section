@@ -198,3 +198,10 @@ svg {
         right:80px;
     }
 }
+@media (min-width:1000px){
+   .child_container_two, .child_container_three {
+        width:250px;
+    }
+    .child_container_one, .child_container_four{
+        width:500px;
+    } 
